@@ -1,0 +1,185 @@
+.navbar {
+  background-color: #393939;
+}
+
+.jumbotron img {
+  width: 190px;
+  border: 2px solid #393939;
+}
+
+.jumbotron {
+  background-image: url("img/bgpio1.jpg");
+  background-size: cover;
+  background-position: 0 -150px;
+  padding-top: 50px;
+  padding-bottom: 250px;
+  background-attachment: fixed;
+}
+
+.my-hero:hover {
+  opacity: 0.8;
+}
+
+.about {
+  background-color: #393939;
+  color: white;
+}
+
+.header,
+.nav-link {
+  font-family: "viga";
+}
+
+.card {
+  width: 20rem;
+}
+
+.img1:hover {
+  transform: scale(1.1);
+  box-shadow: 1px 3px 7px 5px grey;
+}
+
+.img2:hover {
+  transform: scale(1.1);
+  box-shadow: 1px 3px 7px 5px grey;
+}
+
+.img3:hover {
+  transform: scale(1.1);
+  box-shadow: 1px 3px 7px 5px grey;
+}
+
+.img4:hover {
+  transform: scale(1.1);
+  box-shadow: 1px 3px 7px 5px grey;
+}
+
+.img5:hover {
+  transform: scale(1.1);
+  box-shadow: 1px 3px 7px 5px grey;
+}
+
+.img6:hover {
+  transform: scale(1.1);
+  box-shadow: 1px 3px 7px 5px grey;
+}
+
+.img7:hover {
+  transform: scale(1.1);
+  box-shadow: 1px 3px 7px 5px grey;
+}
+
+.img8:hover {
+  transform: scale(1.1);
+  box-shadow: 1px 3px 7px 5px grey;
+}
+
+.img9:hover {
+  transform: scale(1.1);
+  box-shadow: 1px 3px 7px 5px grey;
+}
+
+.sosmed .fb,
+.ig,
+.gh {
+  color: #fff;
+  opacity: 0.5;
+}
+
+.sosmed .fb:hover {
+  opacity: 0.8;
+}
+
+.sosmed .ig:hover {
+  opacity: 0.8;
+}
+
+.sosmed .gh:hover {
+  opacity: 0.8;
+}
+
+.contact {
+  background-color: #393939;
+  color: white;
+}
+
+.btn {
+  border: 1px solid #fff;
+  color: #fff;
+}
+
+.btn:hover {
+  background-color: #393939;
+  color: lightgrey;
+}
+
+.nama_footer {
+  text-decoration: none;
+  color: white;
+}
+
+.nama_footer:hover {
+  color: lightgrey;
+}
+
+@media screen and (min-width: 992px) {
+  .nama {
+    position: relative;
+    font-size: 4vw;
+    text-transform: uppercase;
+  }
+
+  .nama::before {
+    content: attr(data-text);
+    position: absolute;
+    top: 0;
+    left: 350px;
+    width: 0;
+    height: 100%;
+    color: #393939;
+    border-right: 2px solid #393939;
+    overflow: hidden;
+    animation: animate 3s linear infinite;
+  }
+
+  @keyframes animate {
+    0%,
+    10%,
+    100% {
+      width: 0;
+    }
+    70%,
+    90% {
+      width: 45%;
+    }
+  }
+}
+
+footer {
+  background-color: #393939;
+  color: white;
+}
+
+.love {
+  color: rgb(121, 0, 0);
+}
+
+@media screen and (max-width: 768px) {
+  .about-content {
+    margin: 0 15px;
+  }
+
+  .nama {
+    text-transform: uppercase;
+  }
+}
+
+@media screen and (min-width: 300px) {
+  .nama {
+    text-transform: uppercase;
+  }
+
+  .contact {
+    padding: 0 2em;
+  }
+}
